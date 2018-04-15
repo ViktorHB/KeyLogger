@@ -1,0 +1,12 @@
+C:\Users\Votan\source\repos\KeyboardSpy\MVVMLib\bin\Debug\MVVMLib.dll
+C:\Users\Votan\source\repos\KeyboardSpy\MVVMLib\bin\Debug\MVVMLib.pdb
+C:\Users\Votan\source\repos\KeyboardSpy\MVVMLib\obj\Debug\MVVMLib.csprojResolveAssemblyReference.cache
+C:\Users\Votan\source\repos\KeyboardSpy\MVVMLib\obj\Debug\MVVMLib.csproj.CoreCompileInputs.cache
+C:\Users\Votan\source\repos\KeyboardSpy\MVVMLib\obj\Debug\MVVMLib.dll
+C:\Users\Votan\source\repos\KeyboardSpy\MVVMLib\obj\Debug\MVVMLib.pdb
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\MVVMLib\bin\Debug\MVVMLib.dll
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\MVVMLib\bin\Debug\MVVMLib.pdb
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\MVVMLib\obj\Debug\MVVMLib.csprojResolveAssemblyReference.cache
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\MVVMLib\obj\Debug\MVVMLib.csproj.CoreCompileInputs.cache
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\MVVMLib\obj\Debug\MVVMLib.dll
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\MVVMLib\obj\Debug\MVVMLib.pdb

@@ -1,0 +1,6 @@
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\DBService\bin\DBService.dll.config
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\DBService\bin\DBService.dll
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\DBService\bin\DBService.pdb
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\DBService\obj\Release\DBService.csproj.CoreCompileInputs.cache
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\DBService\obj\Release\DBService.dll
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\DBService\obj\Release\DBService.pdb

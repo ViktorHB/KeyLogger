@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b94a8d0e-c9aa-4151-bbaf-d39ebcbef7bd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51210/UIService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="UIService.xsd" MetadataType="Schema" ID="08cd3c3f-e4cd-4018-b256-9753d0ce8e7b" SourceId="1" SourceUrl="http://localhost:51210/UIService.svc?xsd=xsd2" />
+    <MetadataFile FileName="UIService1.xsd" MetadataType="Schema" ID="ccb5f1fc-c865-4351-a4be-10687511b180" SourceId="1" SourceUrl="http://localhost:51210/UIService.svc?xsd=xsd0" />
+    <MetadataFile FileName="UIService2.xsd" MetadataType="Schema" ID="c99fb01b-fc5c-4459-8fec-f3369183f5d0" SourceId="1" SourceUrl="http://localhost:51210/UIService.svc?xsd=xsd1" />
+    <MetadataFile FileName="UIService.wsdl" MetadataType="Wsdl" ID="39714f7b-ca44-49f1-a7fa-89ca634c78d5" SourceId="1" SourceUrl="http://localhost:51210/UIService.svc?wsdl" />
+    <MetadataFile FileName="UIService.disco" MetadataType="Disco" ID="0e8db04e-0ba6-499a-8ccb-7882eab812a8" SourceId="1" SourceUrl="http://localhost:51210/UIService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

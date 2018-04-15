@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataModelStoreContainer" CdmEntityContainer="DataEntities">
+    <EntitySetMapping Name="Activity">
+      <EntityTypeMapping TypeName="DataModel.Activity">
+        <MappingFragment StoreEntitySet="Activity">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="C_from" ColumnName="_from" />
+          <ScalarProperty Name="C_to" ColumnName="_to" />
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Online">
+      <EntityTypeMapping TypeName="DataModel.Online">
+        <MappingFragment StoreEntitySet="Online">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="System">
+      <EntityTypeMapping TypeName="DataModel.System">
+        <MappingFragment StoreEntitySet="System">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="os" ColumnName="os" />
+          <ScalarProperty Name="pc_name" ColumnName="pc_name" />
+          <ScalarProperty Name="processor_identifier" ColumnName="processor_identifier" />
+          <ScalarProperty Name="processor_coresCount" ColumnName="processor_coresCount" />
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Text">
+      <EntityTypeMapping TypeName="DataModel.Text">
+        <MappingFragment StoreEntitySet="Text">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+          <ScalarProperty Name="text1" ColumnName="text" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserAdress">
+      <EntityTypeMapping TypeName="DataModel.UserAdress">
+        <MappingFragment StoreEntitySet="UserAdress">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+          <ScalarProperty Name="ip_adress" ColumnName="ip_adress" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="DataModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="physical_adress" ColumnName="physical_adress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

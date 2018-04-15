@@ -1,0 +1,44 @@
+D:\STEP\TeamProject .NET\InternetMarket01.03\MWVMLib\bin\Debug\MWVMLib.dll
+D:\STEP\TeamProject .NET\InternetMarket01.03\MWVMLib\bin\Debug\MWVMLib.pdb
+D:\STEP\TeamProject .NET\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.csprojResolveAssemblyReference.cache
+D:\STEP\TeamProject .NET\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.csproj.CoreCompileInputs.cache
+D:\STEP\TeamProject .NET\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.dll
+D:\STEP\TeamProject .NET\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.pdb
+D:\STEP\TeamProject.NETVSTS\InternetMarket01.03\MWVMLib\bin\Debug\MWVMLib.dll
+D:\STEP\TeamProject.NETVSTS\InternetMarket01.03\MWVMLib\bin\Debug\MWVMLib.pdb
+D:\STEP\TeamProject.NETVSTS\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.csprojResolveAssemblyReference.cache
+D:\STEP\TeamProject.NETVSTS\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.csproj.CoreCompileInputs.cache
+D:\STEP\TeamProject.NETVSTS\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.dll
+D:\STEP\TeamProject.NETVSTS\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.pdb
+D:\_TeamProject\MarketProject\InternetMarket01.03\MWVMLib\bin\Debug\MWVMLib.dll
+D:\_TeamProject\MarketProject\InternetMarket01.03\MWVMLib\bin\Debug\MWVMLib.pdb
+D:\_TeamProject\MarketProject\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.csprojResolveAssemblyReference.cache
+D:\_TeamProject\MarketProject\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.csproj.CoreCompileInputs.cache
+D:\_TeamProject\MarketProject\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.dll
+D:\_TeamProject\MarketProject\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.pdb
+D:\STEP\TeamProject.NETVSTS\17-03ProjectVersion\InternetMarket01.03\MWVMLib\bin\Debug\MWVMLib.dll
+D:\STEP\TeamProject.NETVSTS\17-03ProjectVersion\InternetMarket01.03\MWVMLib\bin\Debug\MWVMLib.pdb
+D:\STEP\TeamProject.NETVSTS\17-03ProjectVersion\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.csprojResolveAssemblyReference.cache
+D:\STEP\TeamProject.NETVSTS\17-03ProjectVersion\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.csproj.CoreCompileInputs.cache
+D:\STEP\TeamProject.NETVSTS\17-03ProjectVersion\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.dll
+D:\STEP\TeamProject.NETVSTS\17-03ProjectVersion\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.pdb
+D:\radchenko\TeamProject\Project20-03Version\InternetMarket01.03\MWVMLib\bin\Debug\MWVMLib.dll
+D:\radchenko\TeamProject\Project20-03Version\InternetMarket01.03\MWVMLib\bin\Debug\MWVMLib.pdb
+D:\radchenko\TeamProject\Project20-03Version\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.csprojResolveAssemblyReference.cache
+D:\radchenko\TeamProject\Project20-03Version\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.dll
+D:\radchenko\TeamProject\Project20-03Version\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.pdb
+C:\Users\student.LAN\Desktop\zz\TeamProject .NET\InternetMarket01.03\MWVMLib\bin\Debug\MWVMLib.dll
+C:\Users\student.LAN\Desktop\zz\TeamProject .NET\InternetMarket01.03\MWVMLib\bin\Debug\MWVMLib.pdb
+C:\Users\student.LAN\Desktop\zz\TeamProject .NET\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.csprojResolveAssemblyReference.cache
+C:\Users\student.LAN\Desktop\zz\TeamProject .NET\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.dll
+C:\Users\student.LAN\Desktop\zz\TeamProject .NET\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.pdb
+D:\radchenko\TeamProject\2703remadeUI\InternetMarket01.03\MWVMLib\bin\Debug\MWVMLib.dll
+D:\radchenko\TeamProject\2703remadeUI\InternetMarket01.03\MWVMLib\bin\Debug\MWVMLib.pdb
+D:\radchenko\TeamProject\2703remadeUI\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.csprojResolveAssemblyReference.cache
+D:\radchenko\TeamProject\2703remadeUI\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.dll
+D:\radchenko\TeamProject\2703remadeUI\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.pdb
+D:\radchenko\proj28-03\InternetMarket01.03\MWVMLib\bin\Debug\MWVMLib.dll
+D:\radchenko\proj28-03\InternetMarket01.03\MWVMLib\bin\Debug\MWVMLib.pdb
+D:\radchenko\proj28-03\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.csprojResolveAssemblyReference.cache
+D:\radchenko\proj28-03\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.dll
+D:\radchenko\proj28-03\InternetMarket01.03\MWVMLib\obj\Debug\MWVMLib.pdb

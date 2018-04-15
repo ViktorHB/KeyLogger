@@ -1,0 +1,56 @@
+
+CREATE SCHEMA ks
+
+create table ks.Users 
+(
+id int primary key identity ,
+physical_adress  varchar(13),
+) 
+
+create table ks.UserAdress 
+(
+id int primary key identity ,
+id_user int Foreign key references ks.Users(id),
+ip_adress  varchar(15),
+name  varchar(100),
+)
+
+create table ks.System 
+(
+id int primary key identity ,
+os  varchar(100),
+pc_name  varchar(100),
+processor_identifier  varchar(100),
+id_user int Foreign key references ks.Users(id)
+) 
+
+create table ks.Activity 
+(
+id int primary key identity ,
+_from varchar(20),
+_to varchar(20),
+id_user int Foreign key references ks.Users(id)
+) 
+
+create table ks.Online 
+(
+id int primary key identity ,
+id_user int Foreign key references ks.Users(id),
+status  varchar(7),
+) 
+
+create table ks.Text 
+(
+id int primary key identity ,
+id_user int Foreign key references ks.Users(id),
+text  varchar(MAX),
+date datetime,
+) 
+
+drop table ks.UserAdress 
+drop table ks.System 
+drop table ks.Activity 
+drop table ks.Online 
+drop table ks.Text 
+drop table ks.Users 
+

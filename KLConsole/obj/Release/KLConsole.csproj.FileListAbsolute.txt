@@ -1,0 +1,7 @@
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\KLConsole\bin\Release\KLConsole.exe.config
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\KLConsole\bin\Release\KLConsole.exe
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\KLConsole\bin\Release\KLConsole.pdb
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\KLConsole\obj\Release\KLConsole.csproj.CoreCompileInputs.cache
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\KLConsole\obj\Release\KLConsole.exe
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\KLConsole\obj\Release\KLConsole.pdb
+C:\Users\Votan\source\repos\KeyboardSpy 1.2\KLConsole\obj\Release\KLConsole.csprojResolveAssemblyReference.cache

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Activity">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="_from" Type="datetime" />
+    <Property Name="_to" Type="datetime" />
+    <Property Name="id_user" Type="int" />
+  </EntityType>
+  <EntityType Name="Online">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_user" Type="int" />
+    <Property Name="status" Type="varchar" MaxLength="7" />
+  </EntityType>
+  <EntityType Name="System">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="os" Type="varchar" MaxLength="100" />
+    <Property Name="pc_name" Type="varchar" MaxLength="100" />
+    <Property Name="processor_identifier" Type="varchar" MaxLength="100" />
+    <Property Name="processor_coresCount" Type="int" />
+    <Property Name="id_user" Type="int" />
+  </EntityType>
+  <EntityType Name="Text">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_user" Type="int" />
+    <Property Name="text" Type="varchar(max)" />
+    <Property Name="date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UserAdress">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_user" Type="int" />
+    <Property Name="ip_adress" Type="varchar" MaxLength="15" />
+    <Property Name="name" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="physical_adress" Type="varchar" MaxLength="13" />
+  </EntityType>
+  <Association Name="FK__Activity__id_use__2334397B">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Activity" Type="Self.Activity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Activity">
+        <PropertyRef Name="id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Online__id_user__2610A626">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Online" Type="Self.Online" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Online">
+        <PropertyRef Name="id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__System__id_user__2057CCD0">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="System" Type="Self.System" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="System">
+        <PropertyRef Name="id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Text__id_user__28ED12D1">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Text" Type="Self.Text" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Text">
+        <PropertyRef Name="id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserAdres__id_us__1D7B6025">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="UserAdress" Type="Self.UserAdress" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="UserAdress">
+        <PropertyRef Name="id_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DataModelStoreContainer">
+    <EntitySet Name="Activity" EntityType="Self.Activity" Schema="ks" store:Type="Tables" />
+    <EntitySet Name="Online" EntityType="Self.Online" Schema="ks" store:Type="Tables" />
+    <EntitySet Name="System" EntityType="Self.System" Schema="ks" store:Type="Tables" />
+    <EntitySet Name="Text" EntityType="Self.Text" Schema="ks" store:Type="Tables" />
+    <EntitySet Name="UserAdress" EntityType="Self.UserAdress" Schema="ks" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="ks" store:Type="Tables" />
+    <AssociationSet Name="FK__Activity__id_use__2334397B" Association="Self.FK__Activity__id_use__2334397B">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Activity" EntitySet="Activity" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Online__id_user__2610A626" Association="Self.FK__Online__id_user__2610A626">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Online" EntitySet="Online" />
+    </AssociationSet>
+    <AssociationSet Name="FK__System__id_user__2057CCD0" Association="Self.FK__System__id_user__2057CCD0">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="System" EntitySet="System" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Text__id_user__28ED12D1" Association="Self.FK__Text__id_user__28ED12D1">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Text" EntitySet="Text" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserAdres__id_us__1D7B6025" Association="Self.FK__UserAdres__id_us__1D7B6025">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserAdress" EntitySet="UserAdress" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
